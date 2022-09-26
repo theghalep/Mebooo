@@ -1,0 +1,2 @@
+"use strict";var iconOpen=document.getElementById("icon-open"),iconClose=document.getElementById("icon-close"),navLinks=document.getElementById("nav-links");iconOpen.addEventListener("click",function(e){e.preventDefault(),navLinks.classList.remove("hidden"),iconClose.classList.toggle("not-active"),iconOpen.classList.toggle("not-active")}),iconClose.addEventListener("click",function(e){e.preventDefault(),navLinks.classList.add("hidden"),iconClose.classList.toggle("not-active"),iconOpen.classList.toggle("not-active")}),console.log(iconOpen);
+//# sourceMappingURL=script.js.map
